@@ -28,11 +28,11 @@ const Navbar = () =>{
                     :
                     <AiOutlineMenu onClick={() => setToggle(!toggle)} className="text-2xl block md:hidden"/>
             }
-
+{/* <div className={toggle ? "menuIcon active" : "menuIcon"}></div> */}
             <ul className="hidden md:flex text-gray gap-12 font-semibold items-center">
 
                     <li className="hover:text-teal-500 ease-in duration-300 break-before-column ">
-                        <Link to="home" smooth={true} duration={800}>🏠Home</Link>
+                        <Link to="home"  smooth={true} duration={800}>🏠Home</Link>
                     </li>
 
                     <li className="hover:text-teal-500 ease-in duration-300">
@@ -63,22 +63,22 @@ const Navbar = () =>{
              ${toggle? 'right-[0px]':'right-[-100%]'}
              `}>
                     <li className="p-5 m-3 text-lg hover:text-teal-500 ease-in duration-300">
-                       <Link to="home" smooth={true} duration={800}>🏠Home</Link>
+                       <Link to="home" onClick={() => setToggle(false)} smooth={true} duration={800}>🏠Home</Link>
                     </li>
                     <li className="p-5 m-3 text-lg hover:text-teal-500 ease-in duration-300">
-                       <Link to="about" smooth={true} duration={800}>🧖‍♂️About-Us</Link>
+                       <Link to="about" onClick={() => setToggle(false)} smooth={true} duration={800}>🧖‍♂️About-Us</Link>
                     </li>
                     <li className="p-5 m-3 text-lg hover:text-teal-500 ease-in duration-300">
-                       <Link to="skill" smooth={true} duration={800}>🪬Skills</Link>
+                       <Link to="skill" onClick={() => setToggle(false)} smooth={true} duration={800}>🪬Skills</Link>
                     </li>
                     <li className="p-5 m-3 text-lg hover:text-teal-500 ease-in duration-300">
-                       <Link to="project" smooth={true} duration={800}>🎖️Projects</Link>
+                       <Link to="project" onClick={() => setToggle(false)} smooth={true} duration={800}>🎖️Projects</Link>
                     </li>
                     <li className="p-5 m-3 text-lg hover:text-teal-500 ease-in duration-300">
-                       <Link to="reposit" smooth={true} duration={800}>🪟Repositories</Link>
+                       <Link to="reposit" onClick={() => setToggle(false)} smooth={true} duration={800}>🪟Repositories</Link>
                     </li>
                     <li className="p-5 m-3 text-lg hover:text-teal-500 ease-in duration-300">
-                       <Link to="contact" smooth={true} duration={800}>📞Contact</Link>
+                       <Link to="contact" onClick={() => setToggle(false)} smooth={true} duration={800}>📞Contact</Link>
                     </li>
             </ul>
 
