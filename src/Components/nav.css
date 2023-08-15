@@ -1,0 +1,62 @@
+.fine ul li:hover{
+    color: #fc036f;
+    transition: 0.3s;
+}
+
+.fine ul li::before{ 
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background:#000;
+    border-radius:50px;
+    transition: all 0.3s linear;
+    
+}
+.fine ul li:hover::before{ 
+    width: 100%;
+    background: #fc036f; 
+}
+
+.fine ul li .active{
+    color:green;
+}
+
+.background{
+    border-radius: 39% 61% 63% 37% / 30% 49% 51% 70% ;
+}
+
+
+/*-------------- Navbar --------------*/
+.box::before{
+ content:'';
+ position:absolute;
+ width:40px;
+ height:40px;
+ border-radius:50%;
+ right: calc(100% + 110px);
+ top:10%;
+ background-color:red;
+ border:2px solid white
+}
+
+
+
+
+/* ########## Header Img ################*/
+.header_img{
+    animation: profile_animate 8s ease-in-out infinite 1s;
+}
+@keyframes profile_animate {
+    0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+  }
