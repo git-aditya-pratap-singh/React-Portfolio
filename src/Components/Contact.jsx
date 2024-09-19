@@ -85,7 +85,7 @@ const Contact = () =>{
 
                         <div className="inline-flex space-x-3 items-center">
                             <FaEnvelope/>
-                            <span>singhadityapratap370@gmail.com</span> 
+                            <span>dev.theaditya@gmail.com</span> 
                         </div>
 
                         <div className="inline-flex space-x-3 items-center">
@@ -181,7 +181,7 @@ const Contact = () =>{
 
         <div className="w-full bg-slate-900 text-center items-center py-5 px-3 absolute">
             <h1 className=" text-white font-semibold text-sm tab:text-[20px] md:text-[16px]">Developed By 
-            <span className="text-cyan-400"> Aditya Pratap Singh</span> | ©️ 2023 All rights reserved.</h1>
+            <span className="text-cyan-400"> Aditya Pratap Singh</span> | ©️ 2024 All rights reserved.</h1>
         </div>
 
 

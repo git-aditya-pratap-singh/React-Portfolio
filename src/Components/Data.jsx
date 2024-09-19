@@ -24,6 +24,7 @@ import vote from "../assets/vote.png";
 import todo from "../assets/todo.png"
 import port from "../assets/port.png";
 import food from '../assets/food.png';
+import cresclogo from "../assets/cresc_logo.png";
 
 
 // Skills Data ----------------------------------------------
@@ -65,7 +66,7 @@ const Data = [
         image: css,
         title:"CSS",
         subtitle:"CSS stands for Cascading Style Sheets. It is a style sheet language which is used to describe the look and formatting of a document written in markup language.",
-        num:70
+        num:80
     },
 
     {
@@ -73,7 +74,7 @@ const Data = [
         image: tailwind,
         title:"Tailwind CSS",
         subtitle:"Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap.",
-        num:60
+        num:75
 
     },
     
@@ -82,7 +83,7 @@ const Data = [
         image: js,
         title:"JavaScript",
         subtitle:"JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia and everything else.",
-        num:60
+        num:90
     },
 
     {
@@ -90,7 +91,7 @@ const Data = [
         image: react,
         title:"Reactjs",
         subtitle:"React is a free and open-source front-end JavaScript library for building user interfaces based on components.",
-        num:70
+        num:85
     },
 
     {
@@ -98,7 +99,7 @@ const Data = [
         image: nodejs,
         title:"Nodejs",
         subtitle:"Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.",
-        num:60
+        num:80
     },
 
     {
@@ -106,7 +107,7 @@ const Data = [
         image: php,
         title:"PHP",
         subtitle:"PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993.",
-        num:50
+        num:60
     },
 
     {
@@ -114,7 +115,7 @@ const Data = [
         image: mysql,
         title:"MySql",
         subtitle:"MySQL is an open-source relational database management system. Its name is a co-founder Michael Widenius's and SQL (Structured Query Language).",
-        num:70
+        num:85
     },
 
     {
@@ -122,7 +123,7 @@ const Data = [
         image: mongo,
         title:"MongoDB",
         subtitle:"MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program.",
-        num:60
+        num:80
     },
 
     {
@@ -138,7 +139,7 @@ const Data = [
         image: netlify,
         title:"Netlify",
         subtitle:"Netlify is a remote-first cloud computing company that offers a development platform that includes build, deploy.",
-        num:60
+        num:70
     },
 
 
@@ -147,7 +148,7 @@ const Data = [
         image: github,
         title:"GitHub",
         subtitle:"GitHub is an Internet hosting service for software development and version control using Git.",
-        num:65
+        num:80
     },
 
 
@@ -160,7 +161,7 @@ const education = [
         id : 1,
         course : "Master Of Computer Application (MCA)",
         college : "BundelKhand University, Jhansi",
-        percentage : 74,
+        percentage : "75",
         year : "July 2021 - June 2023",
         summary : "Completed Master Of Computer Application from Bundelkhand University, Jhansi I got overall 74% in my MCA Degree.",
         imgsrc : bu
@@ -282,9 +283,76 @@ const RepData = [
     },
 ]
 
+const experienceData = [
+    {
+        id: 1,
+        designation: 'Software Developer',
+        company: 'Cresc Datasoft Pvt Ltd.',
+        techStack: 'ReactJS, NodeJS, MongoDB, MYSQL, API',
+        year : 'Sep 2023 - Present',
+        rolesAndResponsibilities: [
+            {
+                id: 1,
+                Name: 'BDS (Web App)',
+                roleRes: [
+                    {
+                        id: 1,
+                        label: 'Engineered a cutting-edge module to streamline data addition and edit functionality, optimizing component performance and driving a 50% increase in database efficiency.'
+                    },
+                    {
+                        id: 2,
+                        label: 'Implemented callback hooks in ReactJS to resolve critical bugs and optimize system performance, resulting in a 40% reduction in app crashes and a 25% increase in overall application speed.'
+                    },
+                    {
+                        id: 3,
+                        label: 'Designed a module that extracts data from the database and transfers it to Excel.'
+                    },
+                    {
+                        id: 4,
+                        label: 'Implemented and managed the MongoDB database, including schema design and aggregation pipelines.'
+                    }
+                ]
+            },
+            {
+                id: 2,
+                Name: 'HRMS Portal',
+                roleRes: [
+                    {
+                        id: 1,
+                        label: 'Developed a cutting-edge login module that utilizes both JWT authentication and OTP-based authentication.'
+                    },
+                    {
+                        id: 2,
+                        label: 'API Development: Developed RESTful APIs using Node.js and Express.js.'
+                    },
+                    {
+                        id: 3,
+                        label: 'Database: Implemented and managed the MongoDB database, including schema design and aggregation pipelines.'
+                    },
+                    {
+                        id: 4,
+                        label: 'Authentication and Authorization: Implemented secure user authentication with JWT and role-based access control.'
+                    },
+                    {
+                        id: 5,
+                        label: 'Business Logic: Developed server-side logic for handling HRMS functions such as attendance, employee information, and punching time in/out using MongoDB aggregation pipelines.'
+                    },
+                    {
+                        id: 6,
+                        label: 'Performance Optimization: Optimized backend performance for scalability and efficiency.'
+                    }
+                ]
+            }
+        ],
+        imgsrc: cresclogo
+    }
+];
+
+
 
 
 export default Data;
 export {education}
 export {projectData};
 export {RepData};
+export {experienceData};

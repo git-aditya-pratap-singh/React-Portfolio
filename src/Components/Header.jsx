@@ -57,7 +57,7 @@ const Header = () =>{
                     />
                     </span></h2>
 
-                    <p className="text-white text-[13px] sm:text-sm leading-normal ">I'm creative web developer based on Uttar Pradesh, 
+                    <p className="text-white text-[13px] sm:text-sm leading-normal ">I'm creative Software Engineer based on MERN-Stack, 
                     and I'm very passionate and dedicate to my work.</p>
                     
 

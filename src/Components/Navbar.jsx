@@ -103,7 +103,7 @@ const Navbar = () =>{
                     </li>
 
                     <li className="ease-in duration-300 cursor-pointer relative">
-                        <Link to="education" smooth={true} duration={800} className="flex flex-row items-center gap-2"><FaUserGraduate/>Education</Link>
+                        <Link to="education" smooth={true} duration={800} className="flex flex-row items-center gap-2"><FaUserGraduate/>Education & Exp..</Link>
                     </li>
 
                     <li className="ease-in duration-300 cursor-pointer relative">
