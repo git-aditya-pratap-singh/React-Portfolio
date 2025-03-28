@@ -49,7 +49,7 @@ const About = () =>{
                 <div className="w-[200px] mx-auto flex flex-row gap-x-3 items-center">
 
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
-                        <h1 className="text-[#fc036f] font-semibold">Who am I</h1>
+                        <h1 className="text-[#fc036f] font-normal">Who am I</h1>
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
                 </div>
             </div>
@@ -80,19 +80,19 @@ const About = () =>{
 
                <div className="flex flex-col items-center space-y-0 text-center py-3 px-4 sm:py-4 sm:px-8 border rounded-lg">
                   <h1><FiAward size={20} color="#fc036f"/></h1>
-                  <h1 className="text-gray-800 font-semibold text-[13px]">Experience</h1>
+                  <h1 className="text-gray-800 font-normal text-[13px]">Experience</h1>
                   <h2 className="text-gray-500 text-[11px]">1+ Year's</h2>
                </div>
 
                <div className="flex flex-col items-center space-y-0 text-center py-3 px-4 sm:py-4 sm:px-8 border rounded-lg">
                   <h1><BiBriefcase size={22} color="#fc036f" /></h1>
-                  <h1 className="text-gray-800 font-semibold text-[13px]">Completed</h1>
+                  <h1 className="text-gray-800 font-normal text-[13px]">Completed</h1>
                   <h2 className="text-gray-500 text-[11px]">3 Project's +</h2>
                </div>
 
                <div className="flex flex-col items-center space-y-0 text-center py-3 px-4 sm:py-4 sm:px-6 border rounded-lg">
                   <h1><BiDesktop size={22} color="#fc036f"/></h1>
-                  <h1 className="text-gray-800 font-semibold text-[13px]">Learning</h1>
+                  <h1 className="text-gray-800 font-normal text-[13px]">Learning</h1>
                   <h2 className="text-gray-500 text-[11px]">docker, AWS, Redis</h2>
                </div> 
 
@@ -102,8 +102,8 @@ const About = () =>{
 
             <h1 className="flex flex-col sm:flex-row font-bold text-[25px] md:text-2xl tab:text-[33px] text-gray-800 text-left font antialiased">
                 Hey, I'm Aditya and I'm a   
-            <h1><Typed
-               className="text-cyan-500 text-[25px] md:text-2xl tab:text-[33px] font antialiased font-bold"
+            <h1 className="ml-2"><Typed
+               className="text-cyan-500 text-[25px] md:text-2xl tab:text-[33px] font antialiased font-semibold"
                strings={[' React Developer', ' Frontend Developer', ' MERN Developer', ' Full-Stack Developer']}
                typeSpeed={90}
                backSpeed={60}

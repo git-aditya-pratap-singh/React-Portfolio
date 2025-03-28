@@ -17,7 +17,7 @@ const Card = (props) =>{
                 <div className="p-3 bg-gray-800 absolute rounded-full drop-shadow-md ml-[-17px]"><FaUserGraduate color="white"/></div>
 
                 <div className="flex flex-col">
-                    <h1 className="font-bold text-[20px] tab:text-xl">{props.course}</h1>
+                    <h1 className="font-normal text-[20px] tab:text-xl">{props.course}</h1>
                     <p className="text-cyan-600 font-semibold">{props.college}</p>
                     <p className="text-[14px]">Percentage : {props.percentage}%</p>
                     <p className="text-[14px]">{props.year}</p>
@@ -43,7 +43,7 @@ const CardExperirnce = (props) =>{
                 <div className="p-3 bg-gray-800 absolute rounded-full drop-shadow-md ml-[-17px]"><FiAward color="white"/></div>
 
                 <div className="flex flex-col">
-                    <h1 className="font-bold text-[20px] tab:text-xl">{props.designation}</h1>
+                    <h1 className="font-normal text-[20px] tab:text-xl">{props.designation}</h1>
                     <p className="text-cyan-600 font-semibold">{props.company}</p>
                     <p className="text-[14px]">{props.year}</p>
                     <p className="text-[14px]"><b>Tools & Technology :</b> {props.techStack}</p>
@@ -96,7 +96,7 @@ const Education = () =>{
                 <div className="w-[300px] flex flex-row gap-x-3 items-center justify-center">
 
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
-                        <h1 className="text-[#fc036f] font-semibold">What have I done</h1>
+                        <h1 className="text-[#fc036f] font-normal">What have I done</h1>
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
                 </div>
             </div>
@@ -139,7 +139,7 @@ const Education = () =>{
                 <div className="w-[300px] flex flex-row gap-x-3 items-center justify-center">
 
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
-                        <h1 className="text-[#fc036f] font-semibold">What am I doing</h1>
+                        <h1 className="text-[#fc036f] font-normal">What am I doing</h1>
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
                 </div>
             </div>

@@ -6,13 +6,17 @@ import js from "../assets/js.png";
 import java from "../assets/java.png";
 import nodejs from "../assets/nodejs.png";
 import php from "../assets/php.png";
-import c from "../assets/images.png";
+import c from "../assets/C_Logo.png";
 import mysql from "../assets/mysql.png";
-import github from "../assets/github1.png";
+import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mongo from "../assets/mongo.png";
 import dsa from "../assets/dsa.png";
 import netlify from "../assets/netlify.png";
+import orlank from "../assets/orlank.avif";
+import typescript from "../assets/ts.png";
+import sass from "../assets/sass.png";
+import bitbucket from "../assets/bitbucket.png";
 
 import bu from "../assets/bu.png";
 import srmu from "../assets/srmu.png";
@@ -70,7 +74,16 @@ const Data = [
     },
 
     {
-        id:6,
+        id:7,
+        image: sass,
+        title:"SCSS",
+        subtitle:"Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap.",
+        num:75
+
+    },
+
+    {
+        id:8,
         image: tailwind,
         title:"Tailwind CSS",
         subtitle:"Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap.",
@@ -79,15 +92,23 @@ const Data = [
     },
     
     {
-        id:7,
+        id:9,
         image: js,
         title:"JavaScript",
         subtitle:"JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia and everything else.",
-        num:90
+        num:80
     },
 
     {
-        id:8,
+        id:10,
+        image: typescript,
+        title:"TypeScript",
+        subtitle:"JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia and everything else.",
+        num:65
+    },
+
+    {
+        id:11,
         image: react,
         title:"Reactjs",
         subtitle:"React is a free and open-source front-end JavaScript library for building user interfaces based on components.",
@@ -95,31 +116,31 @@ const Data = [
     },
 
     {
-        id:9,
+        id:12,
         image: nodejs,
         title:"Nodejs",
         subtitle:"Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.",
+        num:75
+    },
+
+    {
+        id:13,
+        image: php,
+        title:"PHP",
+        subtitle:"PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993.",
+        num:65
+    },
+
+    {
+        id:14,
+        image: mysql,
+        title:"MySql",
+        subtitle:"MySQL is an open-source relational database management system. Its name is a co-founder Michael Widenius's and SQL (Structured Query Language).",
         num:80
     },
 
     {
-        id:10,
-        image: php,
-        title:"PHP",
-        subtitle:"PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993.",
-        num:60
-    },
-
-    {
-        id:11,
-        image: mysql,
-        title:"MySql",
-        subtitle:"MySQL is an open-source relational database management system. Its name is a co-founder Michael Widenius's and SQL (Structured Query Language).",
-        num:85
-    },
-
-    {
-        id:12,
+        id:15,
         image: mongo,
         title:"MongoDB",
         subtitle:"MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program.",
@@ -127,7 +148,7 @@ const Data = [
     },
 
     {
-        id:13,
+        id:16,
         image: dsa,
         title:"Data Structure with Python",
         subtitle:"DSA stands for Data Structures and Algorithms. It is also sometimes referred to Problem Solving Data Structures.",
@@ -135,20 +156,27 @@ const Data = [
     },
 
     {
-        id:14,
+        id:17,
         image: netlify,
         title:"Netlify",
         subtitle:"Netlify is a remote-first cloud computing company that offers a development platform that includes build, deploy.",
-        num:70
+        num:78
     },
 
 
     {
-        id:15,
+        id:18,
         image: github,
         title:"GitHub",
         subtitle:"GitHub is an Internet hosting service for software development and version control using Git.",
-        num:80
+        num:70
+    },
+    {
+        id:19,
+        image: bitbucket,
+        title:"BitBucket",
+        subtitle:"GitHub is an Internet hosting service for software development and version control using Git.",
+        num:50
     },
 
 
@@ -289,7 +317,7 @@ const experienceData = [
         designation: 'Software Developer',
         company: 'Cresc Datasoft Pvt Ltd.',
         techStack: 'ReactJS, NodeJS, MongoDB, MYSQL, API',
-        year : 'Sep 2023 - Present',
+        year : 'Sep 2023 - Sep 2024',
         rolesAndResponsibilities: [
             {
                 id: 1,
@@ -297,18 +325,10 @@ const experienceData = [
                 roleRes: [
                     {
                         id: 1,
-                        label: 'Engineered a cutting-edge module to streamline data addition and edit functionality, optimizing component performance and driving a 50% increase in database efficiency.'
-                    },
-                    {
-                        id: 2,
-                        label: 'Implemented callback hooks in ReactJS to resolve critical bugs and optimize system performance, resulting in a 40% reduction in app crashes and a 25% increase in overall application speed.'
-                    },
-                    {
-                        id: 3,
                         label: 'Designed a module that extracts data from the database and transfers it to Excel.'
                     },
                     {
-                        id: 4,
+                        id: 2,
                         label: 'Implemented and managed the MongoDB database, including schema design and aggregation pipelines.'
                     }
                 ]
@@ -327,24 +347,41 @@ const experienceData = [
                     },
                     {
                         id: 3,
-                        label: 'Database: Implemented and managed the MongoDB database, including schema design and aggregation pipelines.'
-                    },
-                    {
-                        id: 4,
-                        label: 'Authentication and Authorization: Implemented secure user authentication with JWT and role-based access control.'
-                    },
-                    {
-                        id: 5,
-                        label: 'Business Logic: Developed server-side logic for handling HRMS functions such as attendance, employee information, and punching time in/out using MongoDB aggregation pipelines.'
-                    },
-                    {
-                        id: 6,
                         label: 'Performance Optimization: Optimized backend performance for scalability and efficiency.'
                     }
                 ]
             }
         ],
         imgsrc: cresclogo
+    },
+
+    {
+        id: 2,
+        designation: 'Full Stack MERN Developer',
+        company: 'Orlank Technologies Pvt Ltd.',
+        techStack: 'ReactJS, NodeJS, MongoDB, MYSQL, API',
+        year : 'Jan 2025 - Mar 2025',
+        rolesAndResponsibilities: [
+            {
+                id: 1,
+                Name: 'Toor & Travel Web App',
+                roleRes: [
+                    {
+                        id: 1,
+                        label: 'Developed a cutting-edge login module that utilizes both JWT authentication and OTP-based authentication.'
+                    },
+                    {
+                        id: 2,
+                        label: 'Business Logic: Developed server-side logic for handling HRMS functions such as attendance, employee information, and punching time in/out using MongoDB aggregation pipelines.'
+                    },
+                    {
+                        id: 3,
+                        label: 'Performance Optimization: Optimized backend performance for scalability and efficiency.'
+                    }
+                ]
+            }
+        ],
+        imgsrc: orlank
     }
 ];
 

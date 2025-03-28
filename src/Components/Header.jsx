@@ -42,9 +42,9 @@ const Header = () =>{
                 {/* Information */}
                 <div className="basis-1/2 px-5 md:px-20 space-y-1 md:space-y-4" data-aos="fade-right">
 
-                    <h2 className="font-bold text-[#fc036f] text-[22px] md:text-4xl font">Hello, It's me</h2>
+                    <h2 className="font-normal text-[#fc036f] text-[22px] md:text-4xl font">Hello, It's me</h2>
 
-                    <h1 className="text-white font-bold font text-[35px] md:text-6xl ">Aditya Pratap Singh</h1>
+                    <h1 className="text-white font-normal font text-[35px] md:text-6xl ">Aditya Pratap Singh</h1>
 
                     <h2 className="text-4xl text-white font text-[24px] md:text-4xl">& I'm a <span>
 
@@ -57,7 +57,7 @@ const Header = () =>{
                     />
                     </span></h2>
 
-                    <p className="text-white text-[13px] sm:text-sm leading-normal ">I'm creative Software Engineer based on MERN-Stack, 
+                    <p className="text-white text-[13px] sm:text-sm leading-normal font-normal">I'm creative Software Engineer based on MERN-Stack, 
                     and I'm very passionate and dedicate to my work.</p>
                     
 

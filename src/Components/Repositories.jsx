@@ -15,8 +15,8 @@ const Card =(props) =>{
                 <div className="bg-gray-700 rounded-full p-1 animate-spin"><AiFillCodeSandboxCircle size={60} color="cyan"/></div>
 
                 <div className="flex flex-col items-center text-center mt-3">
-                   <h1 className="text-xl md:text-xl lg:text-2xl text-white font-bold font ">{props.title}</h1>
-                   <p className="mt-2 text-white text-[12px] md:text-[12px] lg:text-[14px] font-semibold">{props.details}</p>
+                   <h1 className="text-xl md:text-xl lg:text-2xl text-white font-normal font ">{props.title}</h1>
+                   <p className="mt-2 text-white text-[12px] md:text-[12px] lg:text-[13px] font-normal">{props.details}</p>
                    <a href ={props.link}><FaGithub size={30} className="bg-gray-700 p-1 rounded-full text-cyan-500 mt-3 cursor-pointer hover:scale-110 duration-200"/></a>
                 </div>
 
@@ -48,7 +48,7 @@ const Repositories = () =>{
                 <div className="w-[300px] flex flex-row gap-x-3 items-center justify-center">
 
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
-                        <h1 className="text-[#fc036f] font-semibold">What have I provided</h1>
+                        <h1 className="text-[#fc036f] font-normal">What have I provided</h1>
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
                 </div>
             </div>

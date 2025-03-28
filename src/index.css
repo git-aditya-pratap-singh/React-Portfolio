@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Crete+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,6 +8,10 @@
 html{
   @apply m-0 p-0;
 }
+body{
+  font-family: 'Crete Round', serif;
+}
+
 .font{
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Crete Round', serif;
 }

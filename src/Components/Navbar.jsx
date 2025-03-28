@@ -80,7 +80,7 @@ const Navbar = () =>{
            <div className="flex flex-row justify-between  items-center">
            
             {/* Logo section */}
-            <div className="text-2xl font-bold text-cyan-500 flex items-center gap-3">
+            <div className="text-2xl font-semibold text-cyan-500 flex items-center gap-3">
                     <img src={logo} alt="Error" className="w-[50px] md:w-[50px]"/>
                     <h1>Portfo<span className="text-[#fc036f]">lio.</span></h1>
             </div>
@@ -88,7 +88,7 @@ const Navbar = () =>{
             {/* Navgation Item section */}
             <div className="px-5 fine" data-aos="fade-up-left" >
 
-                <ul className="hidden lg:flex flex-row items-center text-white font-semibold gap-7">
+                <ul className="hidden lg:flex flex-row items-center text-white font-normal gap-7">
 
                     <li className="ease-in duration-300 break-before-column cursor-pointer relative">
                         <Link to="home" smooth={true} duration={800} activeClass="active" className="flex flex-row items-center gap-2"><FaHome/>Home</Link>

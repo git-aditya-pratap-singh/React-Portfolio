@@ -34,7 +34,7 @@ const Projectscards = (props) =>{
             </div>
             
             <div className="flex flex-row space-x-1 items-center justify-between">
-                <h1 className="text-white uppercase text-base pl-5 py-2 font-semibold font">{props.title}</h1>
+                <h1 className="text-white uppercase text-base pl-5 py-2 font-normal font">{props.title}</h1>
 
                 <div className="flex flex-row mx-auto py-2 gap-x-4 px-5">
                    
@@ -46,7 +46,7 @@ const Projectscards = (props) =>{
                 </div>
             </div>
           
-            <p className="text-white text-[13px] md:text-[13px]  text-justify px-5 pt-2 pb-8">{props.detail}</p>
+            <p className="text-white text-[13px] md:text-[13px]  text-justify px-5 pt-2 pb-8 font-normal">{props.detail}</p>
         </div>
         </>
     );
@@ -75,7 +75,7 @@ const Projects = () =>{
                 <div className="w-[300px] flex flex-row gap-x-3 items-center justify-center">
 
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
-                        <h1 className="text-[#fc036f] font-semibold">What have I provided</h1>
+                        <h1 className="text-[#fc036f] font-normal">What have I provided</h1>
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
                 </div>
             </div>

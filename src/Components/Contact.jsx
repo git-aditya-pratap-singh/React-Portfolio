@@ -56,7 +56,7 @@ const Contact = () =>{
                 <div className="w-[300px] flex flex-row gap-x-3 items-center justify-center">
 
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
-                        <h1 className="text-[#fc036f] font-semibold">get in touch</h1>
+                        <h1 className="text-[#fc036f] font-normal">get in touch</h1>
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () =>{
                 <div className="flex flex-col justify-between md:py-14" data-aos="fade-right">
 
                     <div className="text-white">
-                        <h1 className="font-bold text-3xl sm:text-3xl tracking-wide">Get in touch</h1>
+                        <h1 className="font-normal text-3xl sm:text-3xl tracking-wide">Get in touch</h1>
                         <p className="pt-2 text-cyan-100 text-sm font-medium sm:text-[15px] sm:leading-loose">Building a successful product is a challenge. 
                           I am highly energetic in user experience design, interfaces and web development.</p>
                     </div>
@@ -124,7 +124,7 @@ const Contact = () =>{
                 <div className="relative bg-white rounded-xl shadow-lg p-6 text-gray-600" data-aos="fade-left">
                     <form ref={form} onSubmit={sendEmail} className="flex flex-col space-y-4 text-gray-800">
                         <div>
-                            <label for="" className="text-sm font-bold">Your name</label>
+                            <label for="" className="text-sm font-normal">Your name</label>
             
                             <input type="text" 
                             name="user_name"
@@ -135,7 +135,7 @@ const Contact = () =>{
                         </div>
 
                         <div>
-                            <label for="" className="text-sm font-bold ">Email Address</label>
+                            <label for="" className="text-sm font-normal ">Email Address</label>
                         
                             <input type="email"
                             name="user_email" 
@@ -146,7 +146,7 @@ const Contact = () =>{
                         </div>
 
                         <div>
-                            <label for="" className="text-sm font-bold ">Subject</label>
+                            <label for="" className="text-sm font-normal ">Subject</label>
             
                             <input type="text" 
                             name="user_subject"
@@ -157,7 +157,7 @@ const Contact = () =>{
                         </div>
 
                         <div>
-                            <label for="" className="text-sm font-bold tab:text-[20px] md:text-sm">Message</label>
+                            <label for="" className="text-sm font-normal tab:text-[20px] md:text-sm">Message</label>
                         
                             <textarea
                             placeholder="Message"
@@ -168,7 +168,7 @@ const Contact = () =>{
                             </textarea>
                         </div>
                         
-                        <input type="submit" value="Send Message" className="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 tab:py-3 md:py-2
+                        <input type="submit" value="Send Message" className="inline-block self-end bg-cyan-700 text-white font-normal rounded-lg px-6 py-2 tab:py-3 md:py-2
                         uppercase cursor-pointer text-sm tab:text-lg md:text-sm" />
                 
                     </form>
@@ -180,8 +180,8 @@ const Contact = () =>{
         {/* Footer Design */}
 
         <div className="w-full bg-slate-900 text-center items-center py-5 px-3 absolute">
-            <h1 className=" text-white font-semibold text-sm tab:text-[20px] md:text-[16px]">Developed By 
-            <span className="text-cyan-400"> Aditya Pratap Singh</span> | ©️ 2024 All rights reserved.</h1>
+            <h1 className=" text-white font-normal text-sm tab:text-[20px] md:text-[16px]">Developed By 
+            <span className="text-cyan-400"> Aditya Pratap Singh</span> | ©️ 2025 All rights reserved.</h1>
         </div>
 
 

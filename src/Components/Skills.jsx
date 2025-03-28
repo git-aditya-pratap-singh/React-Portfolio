@@ -9,15 +9,15 @@ import "aos/dist/aos.css";
 const Pic = (props) =>{
     return(
         <>
-        <div className="flex flex-col space-y-4 bg-white items-center p-5 rounded-lg hover:scale-105" data-aos="fade-up">
+        <div className="flex flex-col space-y-4 items-center p-5 rounded-lg hover:scale-105" data-aos="fade-up">
 
-            <div className="w-32 h-32 rounded-full border-1 shadow-lg relative ">
+            <div className="w-24 h-24 rounded-full border-1 shadow-lg relative bg-gray-800 ">
                 <img src={props.img} className="bg-center bg-contain p-5"/>
-                <div className="bg-gray-800 p-2.5 sm:p-2 absolute rounded-full mt-[-25px] ml-[90px] text-white text-[11px] sm:text-[10px] ">{props.num}%</div>
+                <div className="bg-gray-800 shadow p-2.5 sm:p-2 absolute rounded-full mt-[-30px] ml-[74px] text-white text-[11px] sm:text-[10px] ">{props.num}%</div>
             </div>
 
-            <h2 className="text-center font-bold text-gray-800">{props.title}</h2>
-            <p className="font-semibold text-center text-gray-700 text-[13px] sm:text-[12px]">{props.subtitle}</p>
+            <h2 className="text-center font-normal text-white">{props.title}</h2>
+            {/* <p className="font-semibold text-center text-gray-700 text-[13px] sm:text-[12px]">{props.subtitle}</p> */}
 
         </div>
         </>
@@ -48,7 +48,7 @@ const Skills = () =>{
                 <div className="w-[300px] flex flex-row gap-x-3 items-center justify-center">
 
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
-                        <h1 className="text-[#fc036f] font-semibold">What do I Know</h1>
+                        <h1 className="text-[#fc036f] font-normal">What do I Know</h1>
                     <div className="w-[50px] h-1 bg-cyan-500 rounded-md"></div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ const Skills = () =>{
 
             {/* Skills Grid section */}
             <div className="flex items-center justify-center">
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 p-3 sm:p-5">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 p-3 sm:p-5">
                   
                   {
                     Data.map((elem)=>{
